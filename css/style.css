@@ -9,6 +9,7 @@ nav {
 font-family: 'Nunito', sans-serif;
 font-family: 'Roboto', sans-serif;
 background-color: #52C6CC;
+border-bottom: 1px solid gray;
 }
 
 header img{
@@ -28,17 +29,13 @@ header a:hover {
 }
 
 /* Main */
-main h1 {
-    font-size: 70px;
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    text-align: center;
-    color: rgb(207, 51, 51);
+main{
+    margin-top: 150px;
+    
 }
 
-main p {font-family: 'Nunito', sans-serif;
+main p {
+    font-family: Nunito', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: 30px;

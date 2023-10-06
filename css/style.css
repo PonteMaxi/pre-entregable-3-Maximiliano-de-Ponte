@@ -29,46 +29,52 @@ header a:hover {
 }
 
 /* Main */
-main{
+main {
     margin-top: 150px;
-    
 }
 
-main p {
-    font-family: Nunito', sans-serif;
+
+main section p{
+    font-family: 'Nunito', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300 !important;
     font-style: italic;
-    font-size: 30px;
+    font-size: 2rem;
     text-align: center;
 }
 
 /* Footer */
-p {font-size: 15px;
+
+footer{
+    margin-top: 70px;
     font-family: 'Nunito', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    text-align: center;
-    color: rgb(49, 9, 9)}
+    background-color: #52C6CC;
+}
 
-    footer ul li {background-color: grey;
-        text-decoration: underline;
-        font-size: large;
-        font-family: 'Nunito', sans-serif;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-        font-size: 20px;
-        list-style-type: none;
-    }
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center
+}
 
-    footer ul li a {color:rgb(176, 224, 62);}
+.grid-item-tres a{
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+    font-size: 1rem;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+}
 
-    h2 {color: rgb(176, 224, 62);
-        font-family: 'Nunito', sans-serif;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-        font-size: 20px;
-    }
+.grid-item-tres a:hover {
+    color: red;   
+}
+
+
 
     /* Formatos del formulario contacto */
 

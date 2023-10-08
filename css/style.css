@@ -30,16 +30,15 @@ header a:hover {
 
 /* Main */
 main {
-    margin-top: 150px;
+    margin-top: 120px;
+    
 }
-
 
 main section p{
     font-family: 'Nunito', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300 !important;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -167,4 +166,8 @@ padding: 15px;
 .card-text{
     font-size: 1.5rem;
 }
-        
+     
+
+/* Estilos archivo preguntas */
+
+

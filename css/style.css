@@ -71,7 +71,7 @@ footer{
     text-decoration: none;
     color: rgb(27, 27, 27);
     font-size: 1rem;
-    background-color: #80F9FF;
+    background-color: c;
     padding: 10px;
     border-radius: 5px;
 }
@@ -113,3 +113,72 @@ footer{
     .respuestas {font-family: 'Nunito', sans-serif;
         font-family: 'Roboto', sans-serif;
         font-size: 15px}
+
+/* Galeria de Imagenes */
+
+.container-galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+background-color: #22dae4;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+margin: 15px;
+padding: 15px;
+gap: 15px;
+flex-wrap: wrap;
+border-radius: 5px;
+}
+        
+.uno {
+background-color: #52C6CC;
+grid-row: 1/2;
+grid-column: 1/2;
+border-radius: 5px;
+padding: 15px;
+}
+
+.dos {
+    background-color: #52C6CC;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.tres {
+    background-color: #52C6CC;
+    grid-row: 1/2;
+    grid-column: 3/4;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.cuatro {
+    background-color: #52C6CC;
+    grid-row: 2/3;
+    grid-column: 1/2;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.cinco {
+    background-color: #52C6CC;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.seis {
+    background-color: #52C6CC;
+    grid-row: 2/3;
+    grid-column: 3/4;
+    border-radius: 5px;
+    padding: 15px;
+}
+        

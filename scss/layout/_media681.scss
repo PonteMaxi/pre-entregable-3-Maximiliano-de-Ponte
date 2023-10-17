@@ -1,0 +1,43 @@
+@media (max-width: 681px){
+
+    .navbar{
+        li{
+            a{
+                font-size: 0.8rem;
+            }
+        }
+
+    }
+
+
+    main {
+        section {
+            p{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    
+    footer{
+        div{
+            p{
+            font-size: 0.5rem;
+            }
+           
+        }
+        .grid-item-tres{
+            a {
+                    font-size: 0.5rem;
+                }
+
+        }
+        .grid-item-cuatro{
+            a{
+                img{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}

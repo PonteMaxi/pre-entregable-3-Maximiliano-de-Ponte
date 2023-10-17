@@ -1,0 +1,17 @@
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    div{
+        margin: 25px;
+        h5{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.5rem;
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+}

@@ -161,5 +161,12 @@ main section p {
     width: 50%;
   }
 }
+.nav-link-uno, .nav-link-cinco, .nav-link-cuatro, .nav-link-tres, .nav-link-dos {
+  background-color: #80F9FF;
+  color: grey;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */

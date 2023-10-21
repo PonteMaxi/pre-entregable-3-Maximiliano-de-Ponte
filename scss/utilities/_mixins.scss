@@ -1,0 +1,14 @@
+
+
+@mixin button-style ($bg-color, $color){
+    background-color: $bg-color;
+    color: $color;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 50px;
+
+}
+
+.nav-link-uno{
+    @include button-style(#80F9FF, grey)
+}

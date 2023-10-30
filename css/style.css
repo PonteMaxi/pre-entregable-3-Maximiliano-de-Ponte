@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: #80F9FF;
+  background: rgb(4, 61, 65);
+  background: linear-gradient(270deg, rgb(4, 61, 65) 0%, rgb(82, 198, 204) 100%);
 }
 
 .grid-item-tres a {
@@ -42,7 +43,8 @@ footer {
   margin-top: 70px;
   font-family: "Nunito", sans-serif;
   font-family: "Roboto", sans-serif;
-  background-color: #52C6CC;
+  background: rgb(4, 61, 65);
+  background: linear-gradient(90deg, rgb(4, 61, 65) 0%, rgb(82, 198, 204) 100%);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 80px;
@@ -72,42 +74,42 @@ footer p {
   border-radius: 5px;
 }
 .container-galeria .container div .uno {
-  background-color: #52C6CC;
+  background-color: rgb(4, 61, 65);
   grid-row: 1/2;
   grid-column: 1/2;
   border-radius: 5px;
   padding: 15px;
 }
 .container-galeria .container div .dos {
-  background-color: #52C6CC;
+  background-color: rgb(4, 61, 65);
   grid-row: 1/2;
   grid-column: 2/3;
   border-radius: 5px;
   padding: 15px;
 }
 .container-galeria .container div .tres {
-  background-color: #52C6CC;
+  background-color: rgb(4, 61, 65);
   grid-row: 1/2;
   grid-column: 3/4;
   border-radius: 5px;
   padding: 15px;
 }
 .container-galeria .container div .cuatro {
-  background-color: #52C6CC;
+  background-color: rgb(4, 61, 65);
   grid-row: 2/3;
   grid-column: 1/2;
   border-radius: 5px;
   padding: 15px;
 }
 .container-galeria .container div .cinco {
-  background-color: #52C6CC;
+  background-color: rgb(4, 61, 65);
   grid-row: 2/3;
   grid-column: 2/3;
   border-radius: 5px;
   padding: 15px;
 }
 .container-galeria .container div .seis {
-  background-color: #52C6CC;
+  background-color: rgb(4, 61, 65);
   grid-row: 2/3;
   grid-column: 3/4;
   border-radius: 5px;
@@ -117,8 +119,12 @@ footer p {
 header nav {
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
-  background-color: #52C6CC;
   border-bottom: 1px solid gray;
+  animation-name: cambiarcolor;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+  animation-delay: 1s;
 }
 header img {
   width: 200px;
@@ -165,8 +171,32 @@ main section p {
   background-color: #80F9FF;
   color: grey;
   text-decoration: none;
-  padding: 5px;
-  border-radius: 50px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.icono-whp {
+  cursor: pointer;
+  width: 3rem;
+  position: fixed;
+  right: 25px;
+  bottom: 10px;
+  transition: all 2s;
+}
+.icono-whp:hover {
+  transform: rotate(360deg);
+}
+
+@keyframes cambiarcolor {
+  0% {
+    background-color: #52C6CC;
+  }
+  50% {
+    background-color: #043d41;
+  }
+  100% {
+    background-color: #52C6CC;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

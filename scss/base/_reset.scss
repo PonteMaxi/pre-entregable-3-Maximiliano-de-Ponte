@@ -7,5 +7,6 @@
 }
 
 body {
-    background-color: $bg-main;
+    background: rgb(4, 61, 65);
+    background: linear-gradient(270deg, rgba(4, 61, 65, 1) 0%, rgba(82, 198, 204, 1) 100%);
 }

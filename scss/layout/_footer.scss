@@ -4,13 +4,15 @@ footer {
     margin-top: 70px;
     font-family: 'Nunito', sans-serif;
     font-family: 'Roboto', sans-serif;
-    background-color: $color-footer;
+    background: $color-footer;
+    background: linear-gradient(90deg, rgba(4, 61, 65, 1) 0%, rgba(82, 198, 204, 1) 100%);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 80px;
     justify-content: center;
     align-items: center;
     justify-items: center;
+
     p{
         font-size: 0.8rem;
         color: $bg-main;

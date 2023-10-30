@@ -6,8 +6,17 @@ header{
     nav{
         font-family: 'Open Sans', sans-serif;
         font-family: 'Roboto', sans-serif;
-        background-color: $color-footer;
         border-bottom: 1px solid gray;
+        //propiedades animaciones
+        animation-name: cambiarcolor;
+        //cuantas veces se repite
+        animation-iteration-count: infinite;
+        //velocidad animacion
+        animation-timing-function: ease-in;
+        //duracion
+        animation-duration: 5s;
+        //tiempo de espera para que inicie
+        animation-delay: 1s;
     }
     img{
         width: 200px;
@@ -27,3 +36,4 @@ header{
     }
 
 }
+

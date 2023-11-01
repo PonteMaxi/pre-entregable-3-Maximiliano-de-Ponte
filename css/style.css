@@ -176,11 +176,6 @@ main section p {
 }
 
 .icono-whp {
-  cursor: pointer;
-  width: 3rem;
-  position: fixed;
-  right: 25px;
-  bottom: 10px;
   transition: all 2s;
 }
 .icono-whp:hover {

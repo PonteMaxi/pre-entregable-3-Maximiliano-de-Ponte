@@ -149,6 +149,9 @@ main section p {
   font-size: 1.5rem;
   text-align: center;
 }
+main section .d-block {
+  width: 100%;
+}
 
 @media (max-width: 681px) {
   .navbar li a {
@@ -156,6 +159,9 @@ main section p {
   }
   main section p {
     font-size: 1rem;
+  }
+  main section .d-block {
+    width: 200%;
   }
   footer div p {
     font-size: 0.5rem;
@@ -176,7 +182,7 @@ main section p {
 }
 
 .icono-whp {
-  transition: all 2s;
+  transition: 2s;
 }
 .icono-whp:hover {
   transform: rotate(360deg);
